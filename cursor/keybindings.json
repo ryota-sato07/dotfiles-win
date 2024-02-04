@@ -1,0 +1,52 @@
+[
+  {
+    "key": "ctrl+shift+n",
+    "command": "explorer.newFile"
+  },
+  {
+    "key": "ctrl+shift+k",
+    "command": "explorer.newFolder"
+  },
+  {
+    "key": "alt+ctrl+l",
+    "command": "workbench.action.nextEditor"
+  },
+  {
+    "key": "alt+ctrl+right",
+    "command": "-workbench.action.nextEditor"
+  },
+  {
+    "key": "alt+ctrl+h",
+    "command": "workbench.action.previousEditor"
+  },
+  {
+    "key": "alt+ctrl+left",
+    "command": "-workbench.action.previousEditor"
+  },
+  {
+    "key": "ctrl+z l",
+    "command": "workbench.action.focusRightGroup"
+  },
+  {
+    "key": "ctrl+r ctrl+right",
+    "command": "-workbench.action.focusRightGroup"
+  },
+  {
+    "key": "ctrl+z h",
+    "command": "workbench.action.focusLeftGroup"
+  },
+  {
+    "key": "ctrl+r ctrl+left",
+    "command": "-workbench.action.focusLeftGroup"
+  },
+  {
+    "key": "ctrl+alt+f",
+    "command": "extension.vim_ctrl+f",
+    "when": "editorTextFocus && vim.active && vim.use<C-f> && !inDebugRepl && vim.mode != 'Insert'"
+  },
+  {
+    "key": "ctrl+f",
+    "command": "-extension.vim_ctrl+f",
+    "when": "editorTextFocus && vim.active && vim.use<C-f> && !inDebugRepl && vim.mode != 'Insert'"
+  }
+]
